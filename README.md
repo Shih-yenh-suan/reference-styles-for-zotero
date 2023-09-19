@@ -24,7 +24,7 @@
 
 ## 预览：自用中文论文引文格式(author et al., year)
 
-![自用中文论文引文格式(author et al., year)](./.asset/自用中文论文引文格式(author et al., year).png)
+![自用中文论文引文格式(author-year)](./.asset/自用中文论文引文格式(author-year).png)
 
 ## 预览：自用中文论文引文格式([n-m])
 
