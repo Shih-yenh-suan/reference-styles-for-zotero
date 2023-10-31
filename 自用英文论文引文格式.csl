@@ -53,7 +53,7 @@
       <name>
         <name-part name="family"/>
         <name-part name="given"/>
-	<name form="short" and="text" delimiter=", " delimiter-precedes-last="never" initialize-with=". "/>
+	      <name form="short" and="text" delimiter=", " delimiter-precedes-last="never" initialize-with=". "/>
       </name>
       <substitute>
         <names variable="composer"/>
