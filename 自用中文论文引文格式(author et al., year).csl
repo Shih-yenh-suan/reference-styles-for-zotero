@@ -450,7 +450,7 @@
   <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" collapse="year">
     <!-- 取消这部分注释可以使用 CSL-M 的功能支持双语 -->
     <!-- <layout prefix="(" suffix=")" delimiter="; " locale="en"><text macro="citation-layout"/></layout> -->
-    <layout prefix="(" suffix=")" delimiter="; ">
+    <layout prefix="（" suffix="）" delimiter="; ">
       <text macro="citation-layout"/>
     </layout>
   </citation>
