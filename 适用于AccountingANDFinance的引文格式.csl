@@ -225,9 +225,9 @@
     </sort>
     <layout>
       <group suffix=".">
-        <text macro="author" suffix=","/>
-        <text macro="issued" prefix=" "/>
-        <group prefix=". ">
+        <text macro="author" suffix=" "/>
+        <text macro="issued" prefix=" (" suffix=")" />  
+        <group prefix=" ">
           <text macro="title"/>
           <text macro="container"/>
           <text macro="locators"/>
