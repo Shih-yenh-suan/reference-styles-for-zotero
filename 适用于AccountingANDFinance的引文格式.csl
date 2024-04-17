@@ -230,7 +230,7 @@
         <group prefix=" ">
           <text macro="title"/>
           <text macro="container"/>
-          <text macro="locators"/>
+          <text macro="locators" prefix=","/>
         </group>
       </group>
       <text macro="access" prefix=". "/>
