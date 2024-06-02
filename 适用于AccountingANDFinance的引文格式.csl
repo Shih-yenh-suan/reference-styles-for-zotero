@@ -91,8 +91,16 @@
   </macro>
   <macro name="access">
     <choose>
-      <if variable="DOI">
 
+      <if variable="DOI">
+  <!-- 获取和访问路径以及 DOI，已注释掉 -->
+<macro name="url-doi">
+    <choose>
+      <if variable="URL">
+        <text variable="URL"/>
+      </if>
+    </choose>
+  </macro>
       </if>
       <else-if type="webpage post-weblog" match="any">
         <group delimiter=" ">
@@ -127,6 +135,7 @@
         <text variable="title"/>
 
       </else-if>
+
       <else>
         <text variable="title"/>
       </else>
